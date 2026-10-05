@@ -4,6 +4,11 @@ Todas as mudanças relevantes deste projeto serão registradas neste arquivo. O 
 
 ## [Não publicado]
 
+### Adicionado
+
+- Link **Jogar agora** no README.
+- Publicação estática preparada para GitHub Pages.
+
 ### Planejado
 
 - Ampliar a automação dos testes de interface.

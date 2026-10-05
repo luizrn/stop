@@ -2,6 +2,12 @@
 
 Sorteador de letras para partidas de **STOP (adedonha)**, feito em um único arquivo HTML, com cronômetro visual, configuração das letras e funcionamento local sem dependências.
 
+## Jogar agora
+
+### [▶ Abrir o STOP! no navegador](https://luizrn.github.io/stop/)
+
+O GitHub não executa JavaScript dentro do README. O link acima abre o mesmo `index.html` publicado pelo GitHub Pages, onde o jogo funciona normalmente.
+
 ## Resumo executivo
 
 | Item | Definição |
@@ -10,6 +16,7 @@ Sorteador de letras para partidas de **STOP (adedonha)**, feito em um único arq
 | Público | Famílias, escolas, grupos de amigos e mediadores de atividades |
 | Plataforma | Navegadores modernos em celular, tablet e desktop |
 | Entrega | Aplicação estática e autônoma em `index.html` |
+| Jogo online | [luizrn.github.io/stop](https://luizrn.github.io/stop/) |
 | Estado | Versão inicial funcional e validada |
 | Idioma | Português do Brasil |
 
