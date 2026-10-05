@@ -1,0 +1,40 @@
+name: Propor melhoria
+description: Sugira uma melhoria coerente com o propósito do jogo.
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ou necessidade
+      description: Qual dificuldade de uma partida real esta proposta resolve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta
+      description: Descreva o comportamento desejado, sem exigir uma implementação específica.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite
+      placeholder: |
+        - Dado que...
+        - Quando...
+        - Então...
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Impacto percebido
+      options:
+        - Baixo — refinamento visual ou conveniência
+        - Médio — melhora um fluxo frequente
+        - Alto — impede ou dificulta uma partida
+    validations:
+      required: true

@@ -1,0 +1,18 @@
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs e artefatos locais
+*.log
+.playwright-cli/
+output/
+
+# Dependências, caso ferramentas locais sejam usadas futuramente
+node_modules/

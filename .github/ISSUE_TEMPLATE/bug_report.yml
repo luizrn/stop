@@ -1,0 +1,53 @@
+name: Relatar erro
+description: Informe um comportamento incorreto ou uma regressão.
+title: "fix: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado por ajudar a melhorar o STOP!. Não inclua informações privadas.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema
+      description: O que aconteceu?
+      placeholder: Descreva o comportamento observado.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Liste ações curtas e ordenadas.
+      placeholder: |
+        1. Abra...
+        2. Toque em...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador e versão
+      placeholder: Chrome 140, Safari 26, Firefox 143...
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Dispositivo e sistema
+      placeholder: iPhone / iOS, Android, Windows...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências adicionais
+      description: Capturas, gravações ou mensagens do console, sem dados sensíveis.
